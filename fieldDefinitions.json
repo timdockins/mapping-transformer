@@ -1,0 +1,155 @@
+[
+  {
+    "name": "CRA_ACDV_CONTROL_NUM",
+    "type": "STRING",
+    "restrictedValues": false,
+    "ignoreEmpty": false
+  },
+  {
+    "name": "ORIGINATOR_CODE",
+    "type": "STRING",
+    "restrictedValues": [
+      "EFX",
+      "ESP",
+      "TUN"
+    ],
+    "ignoreEmpty": false
+  },
+  {
+    "name": "REQUEST_SUBMITTED_DATE",
+    "type": "DATE",
+    "format": "DD-MMM-YY HH:mm:ss",
+    "ignoreEmpty": false
+  },
+  {
+    "name": "RESPONSE_DUE_DATE",
+    "type": "DATE",
+    "format": "DD-MMM-YY HH:mm:ss",
+    "ignoreEmpty": false
+  },
+  {
+    "name": "STATUS_CODE",
+    "type": "STRING",
+    "ignoreEmpty": true
+  },
+  {
+    "name": "STATUS_NAME",
+    "type": "STRING",
+    "ignoreEmpty": true
+  },
+  {
+    "name": "STATUS_DATE",
+    "type": "DATE",
+    "format": "DD-MMM-YY HH:mm:ss",
+    "ignoreEmpty": true
+  },
+  {
+    "name": "ACDV_RESPONSE_CODE",
+    "type": "STRING",
+    "ignoreEmpty": true
+  },
+  {
+    "name": "DISPUTE_CODE_1",
+    "type": "STRING",
+    "ignoreEmpty": true
+  },
+  {
+    "name": "DISPUTE_CODE_2",
+    "type": "STRING",
+    "ignoreEmpty": true
+  },
+  {
+    "name": "IMAGE_COUNT",
+    "type": "NUMBER",
+    "ignoreEmpty": false
+  },
+  {
+    "name": "IMAGE_RECEIVED_COUNT",
+    "type": "STRING",
+    "ignoreEmpty": true
+  },
+  {
+    "name": "ACCT_TYPE_CODE",
+    "type": "STRING",
+    "ignoreEmpty": false,
+    "restrictedValues": [
+      "00",
+      "3A",
+      "48",
+      "0C",
+      "77",
+      "18",
+      "0G",
+      "2A",
+      "8A",
+      "37",
+      "50",
+      "93",
+      "94",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "01",
+      "02",
+      "03",
+      "06",
+      "10",
+      "11",
+      "13",
+      "20",
+      "29",
+      "90",
+      "91",
+      "95",
+      "6A",
+      "7B",
+      "8B",
+      "0F",
+      "21",
+      "22",
+      "23",
+      "24",
+      "34",
+      "78",
+      "1A",
+      "1C",
+      "04",
+      "05",
+      "08",
+      "17",
+      "19",
+      "25",
+      "26",
+      "89",
+      "0A",
+      "5A",
+      "9A",
+      "5B",
+      "6B",
+      "2C",
+      "6D",
+      "27",
+      "85",
+      "87",
+      "15",
+      "43",
+      "47",
+      "7A",
+      "9B",
+      "07",
+      "12",
+      "92",
+      "4D",
+      "31",
+      ""
+    ]
+  }
+]
